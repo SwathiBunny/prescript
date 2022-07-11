@@ -1,0 +1,853 @@
+BDB5105 Verification of /var/lib/rpm/Packages succeeded.
+0
+Wed Jan 15 14:55:51 IST 2020
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+ static.238.6.69 212.224.71.212   2 u    2   64    1  194.501  -49.602  23.282
+ 173.249.41.242  17.253.54.123    2 u    1   64    1  156.665  -26.225   0.085
+ ntp.fra.de.as20 131.188.3.220    2 u    2   64    1  194.091  -28.210   0.000
+ 162.159.200.123 10.202.8.4       3 u    1   64    1   31.776  -25.284   0.000
+/dev/mapper/centos-root xfs        17G  5.0G   13G  29% /
+/dev/mapper/gwvg-gwvol  xfs        40G  3.3G   37G   9% /usr/local/groundwork
+/dev/sda1               xfs      1014M  148M  867M  15% /boot
+3
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=6fed12d7-36cf-49f7-8dce-16b81a052d8e /boot                   xfs     defaults        0 0
+/dev/gwvg/gwvol   /usr/local/groundwork xfs     defaults        1 1
+3
+abi.vsyscall32 = 1
+crypto.fips_enabled = 0
+debug.exception-trace = 1
+debug.kprobes-optimization = 1
+debug.panic_on_rcu_stall = 0
+dev.cdrom.autoclose = 1
+dev.cdrom.autoeject = 0
+dev.cdrom.check_media = 0
+dev.cdrom.debug = 0
+dev.cdrom.info = CD-ROM information, Id: cdrom.c 3.20 2003/12/17
+dev.cdrom.info = 
+dev.cdrom.info = drive name:		sr0
+dev.cdrom.info = drive speed:		1
+dev.cdrom.info = drive # of slots:	1
+dev.cdrom.info = Can close tray:		1
+dev.cdrom.info = Can open tray:		1
+dev.cdrom.info = Can lock tray:		1
+dev.cdrom.info = Can change speed:	1
+dev.cdrom.info = Can select disk:	0
+dev.cdrom.info = Can read multisession:	1
+dev.cdrom.info = Can read MCN:		1
+dev.cdrom.info = Reports media changed:	1
+dev.cdrom.info = Can play audio:		1
+dev.cdrom.info = Can write CD-R:		1
+dev.cdrom.info = Can write CD-RW:	1
+dev.cdrom.info = Can read DVD:		1
+dev.cdrom.info = Can write DVD-R:	1
+dev.cdrom.info = Can write DVD-RAM:	1
+dev.cdrom.info = Can read MRW:		1
+dev.cdrom.info = Can write MRW:		1
+dev.cdrom.info = Can write RAM:		1
+dev.cdrom.info = 
+dev.cdrom.info = 
+dev.cdrom.lock = 1
+dev.hpet.max-user-freq = 64
+dev.mac_hid.mouse_button2_keycode = 97
+dev.mac_hid.mouse_button3_keycode = 100
+dev.mac_hid.mouse_button_emulation = 0
+dev.parport.default.spintime = 500
+dev.parport.default.timeslice = 200
+dev.raid.speed_limit_max = 200000
+dev.raid.speed_limit_min = 1000
+dev.scsi.logging_level = 0
+fs.aio-max-nr = 65536
+fs.aio-nr = 0
+fs.binfmt_misc.status = enabled
+fs.dentry-state = 44717	24866	45	0	0	0
+fs.dir-notify-enable = 1
+fs.epoll.max_user_watches = 786227
+fs.file-max = 379097
+fs.file-nr = 5824	0	379097
+fs.inode-nr = 63632	28118
+fs.inode-state = 63632	28118	0	0	0	0	0
+fs.inotify.max_queued_events = 16384
+fs.inotify.max_user_instances = 128
+fs.inotify.max_user_watches = 8192
+fs.lease-break-time = 45
+fs.leases-enable = 1
+fs.may_detach_mounts = 0
+fs.mount-max = 100000
+fs.mqueue.msg_default = 10
+fs.mqueue.msg_max = 10
+fs.mqueue.msgsize_default = 8192
+fs.mqueue.msgsize_max = 8192
+fs.mqueue.queues_max = 256
+fs.nr_open = 1048576
+fs.overflowgid = 65534
+fs.overflowuid = 65534
+fs.pipe-max-size = 1048576
+fs.pipe-user-pages-hard = 0
+fs.pipe-user-pages-soft = 16384
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+fs.quota.allocated_dquots = 0
+fs.quota.cache_hits = 0
+fs.quota.drops = 0
+fs.quota.free_dquots = 0
+fs.quota.lookups = 0
+fs.quota.reads = 0
+fs.quota.syncs = 0
+fs.quota.warnings = 1
+fs.quota.writes = 0
+fs.suid_dumpable = 0
+fs.xfs.age_buffer_centisecs = 1500
+fs.xfs.error_level = 3
+fs.xfs.filestream_centisecs = 3000
+fs.xfs.inherit_noatime = 1
+fs.xfs.inherit_nodefrag = 1
+fs.xfs.inherit_nodump = 1
+fs.xfs.inherit_nosymlinks = 0
+fs.xfs.inherit_sync = 1
+fs.xfs.irix_sgid_inherit = 0
+fs.xfs.irix_symlink_mode = 0
+fs.xfs.panic_mask = 0
+fs.xfs.rotorstep = 1
+fs.xfs.speculative_prealloc_lifetime = 300
+fs.xfs.stats_clear = 0
+fs.xfs.xfsbufd_centisecs = 100
+fs.xfs.xfssyncd_centisecs = 3000
+kernel.acct = 4	2	30
+kernel.acpi_video_flags = 0
+kernel.auto_msgmni = 1
+kernel.bootloader_type = 114
+kernel.bootloader_version = 2
+kernel.cad_pid = 1
+kernel.cap_last_cap = 36
+kernel.compat-log = 1
+kernel.core_pattern = |/usr/libexec/abrt-hook-ccpp %s %c %p %u %g %t e %P %I %h
+kernel.core_pipe_limit = 4
+kernel.core_uses_pid = 1
+kernel.ctrl-alt-del = 0
+kernel.dmesg_restrict = 0
+kernel.domainname = (none)
+kernel.ftrace_dump_on_oops = 0
+kernel.ftrace_enabled = 1
+kernel.hardlockup_all_cpu_backtrace = 0
+kernel.hardlockup_panic = 1
+kernel.hostname = monitor.thikesh.com
+kernel.hotplug = 
+kernel.hung_task_check_count = 4194304
+kernel.hung_task_panic = 0
+kernel.hung_task_timeout_secs = 120
+kernel.hung_task_warnings = 10
+kernel.io_delay_type = 0
+kernel.kexec_load_disabled = 0
+kernel.keys.gc_delay = 300
+kernel.keys.maxbytes = 20000
+kernel.keys.maxkeys = 200
+kernel.keys.persistent_keyring_expiry = 259200
+kernel.keys.root_maxbytes = 25000000
+kernel.keys.root_maxkeys = 1000000
+kernel.kptr_restrict = 0
+kernel.max_lock_depth = 1024
+kernel.modprobe = /sbin/modprobe
+kernel.modules_disabled = 0
+kernel.msg_next_id = -1
+kernel.msgmax = 8192
+kernel.msgmnb = 16384
+kernel.msgmni = 7539
+kernel.ngroups_max = 65536
+kernel.nmi_watchdog = 1
+kernel.ns_last_pid = 43625
+kernel.numa_balancing = 0
+kernel.numa_balancing_scan_delay_ms = 1000
+kernel.numa_balancing_scan_period_max_ms = 60000
+kernel.numa_balancing_scan_period_min_ms = 1000
+kernel.numa_balancing_scan_size_mb = 256
+kernel.numa_balancing_settle_count = 4
+kernel.osrelease = 3.10.0-862.el7.x86_64
+kernel.ostype = Linux
+kernel.overflowgid = 65534
+kernel.overflowuid = 65534
+kernel.panic = 0
+kernel.panic_on_io_nmi = 0
+kernel.panic_on_oops = 1
+kernel.panic_on_stackoverflow = 0
+kernel.panic_on_unrecovered_nmi = 0
+kernel.panic_on_warn = 0
+kernel.perf_cpu_time_max_percent = 25
+kernel.perf_event_max_sample_rate = 100000
+kernel.perf_event_mlock_kb = 516
+kernel.perf_event_paranoid = 2
+kernel.pid_max = 131072
+kernel.poweroff_cmd = /sbin/poweroff
+kernel.print-fatal-signals = 0
+kernel.printk = 4	4	1	7
+kernel.printk_delay = 0
+kernel.printk_ratelimit = 5
+kernel.printk_ratelimit_burst = 10
+kernel.pty.max = 4096
+kernel.pty.nr = 1
+kernel.pty.reserve = 1024
+kernel.random.boot_id = 3faad448-9b5b-4390-9e81-93099ae51739
+kernel.random.entropy_avail = 3844
+kernel.random.poolsize = 4096
+kernel.random.read_wakeup_threshold = 64
+kernel.random.urandom_min_reseed_secs = 60
+kernel.random.uuid = 68c0f176-9a70-4ad8-8675-f2916468a029
+kernel.random.write_wakeup_threshold = 3072
+kernel.randomize_va_space = 2
+kernel.real-root-dev = 0
+kernel.sched_autogroup_enabled = 0
+kernel.sched_cfs_bandwidth_slice_us = 5000
+kernel.sched_child_runs_first = 0
+kernel.sched_domain.cpu0.domain0.busy_factor = 32
+kernel.sched_domain.cpu0.domain0.busy_idx = 2
+kernel.sched_domain.cpu0.domain0.cache_nice_tries = 1
+kernel.sched_domain.cpu0.domain0.flags = 559
+kernel.sched_domain.cpu0.domain0.forkexec_idx = 0
+kernel.sched_domain.cpu0.domain0.idle_idx = 0
+kernel.sched_domain.cpu0.domain0.imbalance_pct = 117
+kernel.sched_domain.cpu0.domain0.max_interval = 4
+kernel.sched_domain.cpu0.domain0.max_newidle_lb_cost = 224233
+kernel.sched_domain.cpu0.domain0.min_interval = 2
+kernel.sched_domain.cpu0.domain0.name = MC
+kernel.sched_domain.cpu0.domain0.newidle_idx = 0
+kernel.sched_domain.cpu0.domain0.wake_idx = 0
+kernel.sched_domain.cpu0.domain1.busy_factor = 32
+kernel.sched_domain.cpu0.domain1.busy_idx = 2
+kernel.sched_domain.cpu0.domain1.cache_nice_tries = 1
+kernel.sched_domain.cpu0.domain1.flags = 4143
+kernel.sched_domain.cpu0.domain1.forkexec_idx = 0
+kernel.sched_domain.cpu0.domain1.idle_idx = 1
+kernel.sched_domain.cpu0.domain1.imbalance_pct = 125
+kernel.sched_domain.cpu0.domain1.max_interval = 8
+kernel.sched_domain.cpu0.domain1.max_newidle_lb_cost = 5185690
+kernel.sched_domain.cpu0.domain1.min_interval = 4
+kernel.sched_domain.cpu0.domain1.name = DIE
+kernel.sched_domain.cpu0.domain1.newidle_idx = 0
+kernel.sched_domain.cpu0.domain1.wake_idx = 0
+kernel.sched_domain.cpu1.domain0.busy_factor = 32
+kernel.sched_domain.cpu1.domain0.busy_idx = 2
+kernel.sched_domain.cpu1.domain0.cache_nice_tries = 1
+kernel.sched_domain.cpu1.domain0.flags = 559
+kernel.sched_domain.cpu1.domain0.forkexec_idx = 0
+kernel.sched_domain.cpu1.domain0.idle_idx = 0
+kernel.sched_domain.cpu1.domain0.imbalance_pct = 117
+kernel.sched_domain.cpu1.domain0.max_interval = 4
+kernel.sched_domain.cpu1.domain0.max_newidle_lb_cost = 291085
+kernel.sched_domain.cpu1.domain0.min_interval = 2
+kernel.sched_domain.cpu1.domain0.name = MC
+kernel.sched_domain.cpu1.domain0.newidle_idx = 0
+kernel.sched_domain.cpu1.domain0.wake_idx = 0
+kernel.sched_domain.cpu1.domain1.busy_factor = 32
+kernel.sched_domain.cpu1.domain1.busy_idx = 2
+kernel.sched_domain.cpu1.domain1.cache_nice_tries = 1
+kernel.sched_domain.cpu1.domain1.flags = 4143
+kernel.sched_domain.cpu1.domain1.forkexec_idx = 0
+kernel.sched_domain.cpu1.domain1.idle_idx = 1
+kernel.sched_domain.cpu1.domain1.imbalance_pct = 125
+kernel.sched_domain.cpu1.domain1.max_interval = 8
+kernel.sched_domain.cpu1.domain1.max_newidle_lb_cost = 764849
+kernel.sched_domain.cpu1.domain1.min_interval = 4
+kernel.sched_domain.cpu1.domain1.name = DIE
+kernel.sched_domain.cpu1.domain1.newidle_idx = 0
+kernel.sched_domain.cpu1.domain1.wake_idx = 0
+kernel.sched_domain.cpu2.domain0.busy_factor = 32
+kernel.sched_domain.cpu2.domain0.busy_idx = 2
+kernel.sched_domain.cpu2.domain0.cache_nice_tries = 1
+kernel.sched_domain.cpu2.domain0.flags = 559
+kernel.sched_domain.cpu2.domain0.forkexec_idx = 0
+kernel.sched_domain.cpu2.domain0.idle_idx = 0
+kernel.sched_domain.cpu2.domain0.imbalance_pct = 117
+kernel.sched_domain.cpu2.domain0.max_interval = 4
+kernel.sched_domain.cpu2.domain0.max_newidle_lb_cost = 402617
+kernel.sched_domain.cpu2.domain0.min_interval = 2
+kernel.sched_domain.cpu2.domain0.name = MC
+kernel.sched_domain.cpu2.domain0.newidle_idx = 0
+kernel.sched_domain.cpu2.domain0.wake_idx = 0
+kernel.sched_domain.cpu2.domain1.busy_factor = 32
+kernel.sched_domain.cpu2.domain1.busy_idx = 2
+kernel.sched_domain.cpu2.domain1.cache_nice_tries = 1
+kernel.sched_domain.cpu2.domain1.flags = 4143
+kernel.sched_domain.cpu2.domain1.forkexec_idx = 0
+kernel.sched_domain.cpu2.domain1.idle_idx = 1
+kernel.sched_domain.cpu2.domain1.imbalance_pct = 125
+kernel.sched_domain.cpu2.domain1.max_interval = 8
+kernel.sched_domain.cpu2.domain1.max_newidle_lb_cost = 10552565
+kernel.sched_domain.cpu2.domain1.min_interval = 4
+kernel.sched_domain.cpu2.domain1.name = DIE
+kernel.sched_domain.cpu2.domain1.newidle_idx = 0
+kernel.sched_domain.cpu2.domain1.wake_idx = 0
+kernel.sched_domain.cpu3.domain0.busy_factor = 32
+kernel.sched_domain.cpu3.domain0.busy_idx = 2
+kernel.sched_domain.cpu3.domain0.cache_nice_tries = 1
+kernel.sched_domain.cpu3.domain0.flags = 559
+kernel.sched_domain.cpu3.domain0.forkexec_idx = 0
+kernel.sched_domain.cpu3.domain0.idle_idx = 0
+kernel.sched_domain.cpu3.domain0.imbalance_pct = 117
+kernel.sched_domain.cpu3.domain0.max_interval = 4
+kernel.sched_domain.cpu3.domain0.max_newidle_lb_cost = 256690
+kernel.sched_domain.cpu3.domain0.min_interval = 2
+kernel.sched_domain.cpu3.domain0.name = MC
+kernel.sched_domain.cpu3.domain0.newidle_idx = 0
+kernel.sched_domain.cpu3.domain0.wake_idx = 0
+kernel.sched_domain.cpu3.domain1.busy_factor = 32
+kernel.sched_domain.cpu3.domain1.busy_idx = 2
+kernel.sched_domain.cpu3.domain1.cache_nice_tries = 1
+kernel.sched_domain.cpu3.domain1.flags = 4143
+kernel.sched_domain.cpu3.domain1.forkexec_idx = 0
+kernel.sched_domain.cpu3.domain1.idle_idx = 1
+kernel.sched_domain.cpu3.domain1.imbalance_pct = 125
+kernel.sched_domain.cpu3.domain1.max_interval = 8
+kernel.sched_domain.cpu3.domain1.max_newidle_lb_cost = 13309974
+kernel.sched_domain.cpu3.domain1.min_interval = 4
+kernel.sched_domain.cpu3.domain1.name = DIE
+kernel.sched_domain.cpu3.domain1.newidle_idx = 0
+kernel.sched_domain.cpu3.domain1.wake_idx = 0
+kernel.sched_latency_ns = 18000000
+kernel.sched_migration_cost_ns = 500000
+kernel.sched_min_granularity_ns = 10000000
+kernel.sched_nr_migrate = 32
+kernel.sched_rr_timeslice_ms = 100
+kernel.sched_rt_period_us = 1000000
+kernel.sched_rt_runtime_us = 950000
+kernel.sched_schedstats = 0
+kernel.sched_shares_window_ns = 10000000
+kernel.sched_time_avg_ms = 1000
+kernel.sched_tunable_scaling = 1
+kernel.sched_wakeup_granularity_ns = 15000000
+kernel.sem = 250	32000	32	128
+kernel.sem_next_id = -1
+kernel.shm_next_id = -1
+kernel.shm_rmid_forced = 0
+kernel.shmall = 18446744073692774399
+kernel.shmmax = 18446744073692774399
+kernel.shmmni = 4096
+kernel.softlockup_all_cpu_backtrace = 0
+kernel.softlockup_panic = 0
+kernel.stack_tracer_enabled = 0
+kernel.sysctl_writes_strict = 1
+kernel.sysrq = 16
+kernel.tainted = 0
+kernel.threads-max = 29992
+kernel.timer_migration = 1
+kernel.traceoff_on_warning = 0
+kernel.unknown_nmi_panic = 0
+kernel.usermodehelper.bset = 4294967295	31
+kernel.usermodehelper.inheritable = 4294967295	31
+kernel.version = #1 SMP Fri Apr 20 16:44:24 UTC 2018
+kernel.watchdog = 1
+kernel.watchdog_cpumask = 0-127
+kernel.watchdog_thresh = 10
+kernel.yama.ptrace_scope = 0
+net.core.bpf_jit_enable = 0
+net.core.busy_poll = 0
+net.core.busy_read = 0
+net.core.default_qdisc = fq_codel
+net.core.dev_weight = 64
+net.core.dev_weight_rx_bias = 1
+net.core.dev_weight_tx_bias = 1
+net.core.message_burst = 10
+net.core.message_cost = 5
+net.core.netdev_budget = 300
+net.core.netdev_max_backlog = 1000
+net.core.netdev_rss_key = 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+net.core.netdev_tstamp_prequeue = 1
+net.core.optmem_max = 20480
+net.core.rmem_default = 212992
+net.core.rmem_max = 212992
+net.core.rps_sock_flow_entries = 0
+net.core.somaxconn = 128
+net.core.warnings = 1
+net.core.wmem_default = 212992
+net.core.wmem_max = 212992
+net.core.xfrm_acq_expires = 30
+net.core.xfrm_aevent_etime = 10
+net.core.xfrm_aevent_rseqth = 2
+net.core.xfrm_larval_drop = 1
+net.ipv4.cipso_cache_bucket_size = 10
+net.ipv4.cipso_cache_enable = 1
+net.ipv4.cipso_rbm_optfmt = 0
+net.ipv4.cipso_rbm_strictvalid = 1
+net.ipv4.conf.all.accept_local = 0
+net.ipv4.conf.all.accept_redirects = 1
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.all.arp_accept = 0
+net.ipv4.conf.all.arp_announce = 0
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.arp_ignore = 0
+net.ipv4.conf.all.arp_notify = 0
+net.ipv4.conf.all.bootp_relay = 0
+net.ipv4.conf.all.disable_policy = 0
+net.ipv4.conf.all.disable_xfrm = 0
+net.ipv4.conf.all.force_igmp_version = 0
+net.ipv4.conf.all.forwarding = 0
+net.ipv4.conf.all.log_martians = 0
+net.ipv4.conf.all.mc_forwarding = 0
+net.ipv4.conf.all.medium_id = 0
+net.ipv4.conf.all.promote_secondaries = 1
+net.ipv4.conf.all.proxy_arp = 0
+net.ipv4.conf.all.proxy_arp_pvlan = 0
+net.ipv4.conf.all.route_localnet = 0
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.all.secure_redirects = 1
+net.ipv4.conf.all.send_redirects = 1
+net.ipv4.conf.all.shared_media = 1
+net.ipv4.conf.all.src_valid_mark = 0
+net.ipv4.conf.all.tag = 0
+net.ipv4.conf.default.accept_local = 0
+net.ipv4.conf.default.accept_redirects = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.default.arp_accept = 0
+net.ipv4.conf.default.arp_announce = 0
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.arp_ignore = 0
+net.ipv4.conf.default.arp_notify = 0
+net.ipv4.conf.default.bootp_relay = 0
+net.ipv4.conf.default.disable_policy = 0
+net.ipv4.conf.default.disable_xfrm = 0
+net.ipv4.conf.default.force_igmp_version = 0
+net.ipv4.conf.default.forwarding = 0
+net.ipv4.conf.default.log_martians = 0
+net.ipv4.conf.default.mc_forwarding = 0
+net.ipv4.conf.default.medium_id = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.default.proxy_arp = 0
+net.ipv4.conf.default.proxy_arp_pvlan = 0
+net.ipv4.conf.default.route_localnet = 0
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.default.secure_redirects = 1
+net.ipv4.conf.default.send_redirects = 1
+net.ipv4.conf.default.shared_media = 1
+net.ipv4.conf.default.src_valid_mark = 0
+net.ipv4.conf.default.tag = 0
+net.ipv4.conf.eth0.accept_local = 0
+net.ipv4.conf.eth0.accept_redirects = 1
+net.ipv4.conf.eth0.accept_source_route = 0
+net.ipv4.conf.eth0.arp_accept = 0
+net.ipv4.conf.eth0.arp_announce = 0
+net.ipv4.conf.eth0.arp_filter = 0
+net.ipv4.conf.eth0.arp_ignore = 0
+net.ipv4.conf.eth0.arp_notify = 0
+net.ipv4.conf.eth0.bootp_relay = 0
+net.ipv4.conf.eth0.disable_policy = 0
+net.ipv4.conf.eth0.disable_xfrm = 0
+net.ipv4.conf.eth0.force_igmp_version = 0
+net.ipv4.conf.eth0.forwarding = 0
+net.ipv4.conf.eth0.log_martians = 0
+net.ipv4.conf.eth0.mc_forwarding = 0
+net.ipv4.conf.eth0.medium_id = 0
+net.ipv4.conf.eth0.promote_secondaries = 1
+net.ipv4.conf.eth0.proxy_arp = 0
+net.ipv4.conf.eth0.proxy_arp_pvlan = 0
+net.ipv4.conf.eth0.route_localnet = 0
+net.ipv4.conf.eth0.rp_filter = 1
+net.ipv4.conf.eth0.secure_redirects = 1
+net.ipv4.conf.eth0.send_redirects = 1
+net.ipv4.conf.eth0.shared_media = 1
+net.ipv4.conf.eth0.src_valid_mark = 0
+net.ipv4.conf.eth0.tag = 0
+net.ipv4.conf.lo.accept_local = 0
+net.ipv4.conf.lo.accept_redirects = 1
+net.ipv4.conf.lo.accept_source_route = 1
+net.ipv4.conf.lo.arp_accept = 0
+net.ipv4.conf.lo.arp_announce = 0
+net.ipv4.conf.lo.arp_filter = 0
+net.ipv4.conf.lo.arp_ignore = 0
+net.ipv4.conf.lo.arp_notify = 0
+net.ipv4.conf.lo.bootp_relay = 0
+net.ipv4.conf.lo.disable_policy = 1
+net.ipv4.conf.lo.disable_xfrm = 1
+net.ipv4.conf.lo.force_igmp_version = 0
+net.ipv4.conf.lo.forwarding = 0
+net.ipv4.conf.lo.log_martians = 0
+net.ipv4.conf.lo.mc_forwarding = 0
+net.ipv4.conf.lo.medium_id = 0
+net.ipv4.conf.lo.promote_secondaries = 0
+net.ipv4.conf.lo.proxy_arp = 0
+net.ipv4.conf.lo.proxy_arp_pvlan = 0
+net.ipv4.conf.lo.route_localnet = 0
+net.ipv4.conf.lo.rp_filter = 0
+net.ipv4.conf.lo.secure_redirects = 1
+net.ipv4.conf.lo.send_redirects = 1
+net.ipv4.conf.lo.shared_media = 1
+net.ipv4.conf.lo.src_valid_mark = 0
+net.ipv4.conf.lo.tag = 0
+net.ipv4.fwmark_reflect = 0
+net.ipv4.icmp_echo_ignore_all = 0
+net.ipv4.icmp_echo_ignore_broadcasts = 1
+net.ipv4.icmp_errors_use_inbound_ifaddr = 0
+net.ipv4.icmp_ignore_bogus_error_responses = 1
+net.ipv4.icmp_msgs_burst = 50
+net.ipv4.icmp_msgs_per_sec = 1000
+net.ipv4.icmp_ratelimit = 1000
+net.ipv4.icmp_ratemask = 6168
+net.ipv4.igmp_max_memberships = 20
+net.ipv4.igmp_max_msf = 10
+net.ipv4.igmp_qrv = 2
+net.ipv4.inet_peer_maxttl = 600
+net.ipv4.inet_peer_minttl = 120
+net.ipv4.inet_peer_threshold = 65664
+net.ipv4.ip_default_ttl = 64
+net.ipv4.ip_dynaddr = 0
+net.ipv4.ip_early_demux = 1
+net.ipv4.ip_forward = 0
+net.ipv4.ip_forward_use_pmtu = 0
+net.ipv4.ip_local_port_range = 32768	60999
+net.ipv4.ip_local_reserved_ports = 
+net.ipv4.ip_no_pmtu_disc = 0
+net.ipv4.ip_nonlocal_bind = 0
+net.ipv4.ipfrag_high_thresh = 4194304
+net.ipv4.ipfrag_low_thresh = 3145728
+net.ipv4.ipfrag_max_dist = 64
+net.ipv4.ipfrag_secret_interval = 600
+net.ipv4.ipfrag_time = 30
+net.ipv4.neigh.default.anycast_delay = 100
+net.ipv4.neigh.default.app_solicit = 0
+net.ipv4.neigh.default.base_reachable_time_ms = 30000
+net.ipv4.neigh.default.delay_first_probe_time = 5
+net.ipv4.neigh.default.gc_interval = 30
+net.ipv4.neigh.default.gc_stale_time = 60
+net.ipv4.neigh.default.gc_thresh1 = 128
+net.ipv4.neigh.default.gc_thresh2 = 512
+net.ipv4.neigh.default.gc_thresh3 = 1024
+net.ipv4.neigh.default.locktime = 100
+net.ipv4.neigh.default.mcast_solicit = 3
+net.ipv4.neigh.default.proxy_delay = 80
+net.ipv4.neigh.default.proxy_qlen = 64
+net.ipv4.neigh.default.retrans_time_ms = 1000
+net.ipv4.neigh.default.ucast_solicit = 3
+net.ipv4.neigh.default.unres_qlen = 31
+net.ipv4.neigh.default.unres_qlen_bytes = 65536
+net.ipv4.neigh.eth0.anycast_delay = 100
+net.ipv4.neigh.eth0.app_solicit = 0
+net.ipv4.neigh.eth0.base_reachable_time_ms = 30000
+net.ipv4.neigh.eth0.delay_first_probe_time = 5
+net.ipv4.neigh.eth0.gc_stale_time = 60
+net.ipv4.neigh.eth0.locktime = 100
+net.ipv4.neigh.eth0.mcast_solicit = 3
+net.ipv4.neigh.eth0.proxy_delay = 80
+net.ipv4.neigh.eth0.proxy_qlen = 64
+net.ipv4.neigh.eth0.retrans_time_ms = 1000
+net.ipv4.neigh.eth0.ucast_solicit = 3
+net.ipv4.neigh.eth0.unres_qlen = 31
+net.ipv4.neigh.eth0.unres_qlen_bytes = 65536
+net.ipv4.neigh.lo.anycast_delay = 100
+net.ipv4.neigh.lo.app_solicit = 0
+net.ipv4.neigh.lo.base_reachable_time_ms = 30000
+net.ipv4.neigh.lo.delay_first_probe_time = 5
+net.ipv4.neigh.lo.gc_stale_time = 60
+net.ipv4.neigh.lo.locktime = 100
+net.ipv4.neigh.lo.mcast_solicit = 3
+net.ipv4.neigh.lo.proxy_delay = 80
+net.ipv4.neigh.lo.proxy_qlen = 64
+net.ipv4.neigh.lo.retrans_time_ms = 1000
+net.ipv4.neigh.lo.ucast_solicit = 3
+net.ipv4.neigh.lo.unres_qlen = 31
+net.ipv4.neigh.lo.unres_qlen_bytes = 65536
+net.ipv4.ping_group_range = 1	0
+net.ipv4.route.error_burst = 5000
+net.ipv4.route.error_cost = 1000
+net.ipv4.route.gc_elasticity = 8
+net.ipv4.route.gc_interval = 60
+net.ipv4.route.gc_min_interval = 0
+net.ipv4.route.gc_min_interval_ms = 500
+net.ipv4.route.gc_thresh = -1
+net.ipv4.route.gc_timeout = 300
+net.ipv4.route.max_size = 2147483647
+net.ipv4.route.min_adv_mss = 256
+net.ipv4.route.min_pmtu = 552
+net.ipv4.route.mtu_expires = 600
+net.ipv4.route.redirect_load = 20
+net.ipv4.route.redirect_number = 9
+net.ipv4.route.redirect_silence = 20480
+net.ipv4.tcp_abort_on_overflow = 0
+net.ipv4.tcp_adv_win_scale = 1
+net.ipv4.tcp_allowed_congestion_control = cubic reno
+net.ipv4.tcp_app_win = 31
+net.ipv4.tcp_autocorking = 1
+net.ipv4.tcp_available_congestion_control = cubic reno
+net.ipv4.tcp_base_mss = 512
+net.ipv4.tcp_challenge_ack_limit = 1000
+net.ipv4.tcp_congestion_control = cubic
+net.ipv4.tcp_dsack = 1
+net.ipv4.tcp_early_retrans = 3
+net.ipv4.tcp_ecn = 2
+net.ipv4.tcp_fack = 1
+net.ipv4.tcp_fastopen = 1027
+net.ipv4.tcp_fastopen_key = c7a24729-4694323c-b87d8e5f-a4bed4c6
+net.ipv4.tcp_fin_timeout = 30
+net.ipv4.tcp_frto = 2
+net.ipv4.tcp_invalid_ratelimit = 500
+net.ipv4.tcp_keepalive_intvl = 75
+net.ipv4.tcp_keepalive_probes = 9
+net.ipv4.tcp_keepalive_time = 300
+net.ipv4.tcp_limit_output_bytes = 262144
+net.ipv4.tcp_low_latency = 0
+net.ipv4.tcp_max_orphans = 16384
+net.ipv4.tcp_max_ssthresh = 0
+net.ipv4.tcp_max_syn_backlog = 4096
+net.ipv4.tcp_max_tw_buckets = 262144
+net.ipv4.tcp_mem = 88095	117463	176190
+net.ipv4.tcp_min_tso_segs = 2
+net.ipv4.tcp_moderate_rcvbuf = 1
+net.ipv4.tcp_mtu_probing = 0
+net.ipv4.tcp_no_metrics_save = 0
+net.ipv4.tcp_notsent_lowat = -1
+net.ipv4.tcp_orphan_retries = 0
+net.ipv4.tcp_reordering = 3
+net.ipv4.tcp_retrans_collapse = 1
+net.ipv4.tcp_retries1 = 3
+net.ipv4.tcp_retries2 = 15
+net.ipv4.tcp_rfc1337 = 0
+net.ipv4.tcp_rmem = 4096	87380	6291456
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_stdurg = 0
+net.ipv4.tcp_syn_retries = 6
+net.ipv4.tcp_synack_retries = 5
+net.ipv4.tcp_syncookies = 1
+net.ipv4.tcp_thin_dupack = 0
+net.ipv4.tcp_thin_linear_timeouts = 0
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_tso_win_divisor = 3
+net.ipv4.tcp_tw_recycle = 0
+net.ipv4.tcp_tw_reuse = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_wmem = 4096	16384	4194304
+net.ipv4.tcp_workaround_signed_windows = 0
+net.ipv4.udp_mem = 89976	119969	179952
+net.ipv4.udp_rmem_min = 4096
+net.ipv4.udp_wmem_min = 4096
+net.ipv4.xfrm4_gc_thresh = 32768
+net.netfilter.nf_log.0 = NONE
+net.netfilter.nf_log.1 = NONE
+net.netfilter.nf_log.10 = NONE
+net.netfilter.nf_log.11 = NONE
+net.netfilter.nf_log.12 = NONE
+net.netfilter.nf_log.2 = NONE
+net.netfilter.nf_log.3 = NONE
+net.netfilter.nf_log.4 = NONE
+net.netfilter.nf_log.5 = NONE
+net.netfilter.nf_log.6 = NONE
+net.netfilter.nf_log.7 = NONE
+net.netfilter.nf_log.8 = NONE
+net.netfilter.nf_log.9 = NONE
+net.netfilter.nf_log_all_netns = 0
+net.unix.max_dgram_qlen = 512
+sunrpc.max_resvport = 1023
+sunrpc.min_resvport = 665
+sunrpc.nfs_debug = 0x0000
+sunrpc.nfsd_debug = 0x0000
+sunrpc.nlm_debug = 0x0000
+sunrpc.rpc_debug = 0x0000
+sunrpc.tcp_fin_timeout = 15
+sunrpc.tcp_max_slot_table_entries = 65536
+sunrpc.tcp_slot_table_entries = 2
+sunrpc.transports = tcp 1048576
+sunrpc.transports = udp 32768
+sunrpc.transports = tcp-bc 1048576
+sunrpc.udp_slot_table_entries = 16
+user.max_ipc_namespaces = 14996
+user.max_mnt_namespaces = 14996
+user.max_net_namespaces = 14996
+user.max_pid_namespaces = 14996
+user.max_user_namespaces = 0
+user.max_uts_namespaces = 14996
+vm.admin_reserve_kbytes = 8192
+vm.block_dump = 0
+vm.dirty_background_bytes = 0
+vm.dirty_background_ratio = 10
+vm.dirty_bytes = 0
+vm.dirty_expire_centisecs = 3000
+vm.dirty_ratio = 30
+vm.dirty_writeback_centisecs = 500
+vm.drop_caches = 0
+vm.extfrag_threshold = 500
+vm.hugepages_treat_as_movable = 0
+vm.hugetlb_shm_group = 0
+vm.laptop_mode = 0
+vm.legacy_va_layout = 0
+vm.lowmem_reserve_ratio = 256	256	32
+vm.max_map_count = 65530
+vm.memory_failure_early_kill = 0
+vm.memory_failure_recovery = 1
+vm.min_free_kbytes = 67584
+vm.min_slab_ratio = 5
+vm.min_unmapped_ratio = 1
+vm.mmap_min_addr = 4096
+vm.mmap_rnd_bits = 28
+vm.mmap_rnd_compat_bits = 8
+vm.nr_hugepages = 0
+vm.nr_hugepages_mempolicy = 0
+vm.nr_overcommit_hugepages = 0
+vm.nr_pdflush_threads = 0
+vm.numa_zonelist_order = default
+vm.oom_dump_tasks = 1
+vm.oom_kill_allocating_task = 0
+vm.overcommit_kbytes = 0
+vm.overcommit_memory = 0
+vm.overcommit_ratio = 50
+vm.page-cluster = 3
+vm.panic_on_oom = 0
+vm.percpu_pagelist_fraction = 0
+vm.stat_interval = 1
+vm.swappiness = 20
+vm.user_reserve_kbytes = 117495
+vm.vfs_cache_pressure = 100
+vm.zone_reclaim_mode = 0
+  PV         VG     Fmt  Attr PSize   PFree 
+  /dev/sda2  centos lvm2 a--  <19.00g     0 
+  /dev/sdb   gwvg   lvm2 a--  <40.00g 24.00m
+  VG     #PV #LV #SN Attr   VSize   VFree 
+  centos   1   2   0 wz--n- <19.00g     0 
+  gwvg     1   1   0 wz--n- <40.00g 24.00m
+  LV    VG     Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  root  centos -wi-ao---- <17.00g                                                    
+  swap  centos -wi-ao----   2.00g                                                    
+  gwvol gwvg   -wi-ao----  39.97g                                                    
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.98  netmask 255.255.255.0  broadcast 192.168.1.255
+        ether 00:0c:29:a6:18:ee  txqueuelen 1000  (Ethernet)
+        RX packets 1420363  bytes 1802309619 (1.6 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 40776  bytes 3988689 (3.8 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 123994  bytes 48088781 (45.8 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 123994  bytes 48088781 (45.8 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:a6:18:ee brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.98/24 brd 192.168.1.255 scope global noprefixroute eth0
+       valid_lft forever preferred_lft forever
+UID         PID   PPID  C STIME TTY          TIME CMD
+libstor+    846      1  0 13:56 ?        00:00:00 /usr/bin/lsmd -d
+polkitd     849      1  0 13:56 ?        00:00:01 /usr/lib/polkit-1/polkitd --no-debug
+rpc         859      1  0 13:56 ?        00:00:00 /sbin/rpcbind -w
+dbus        861      1  0 13:56 ?        00:00:05 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+postfix    1367   1354  0 13:57 ?        00:00:00 pickup -l -t unix -u
+postfix    1368   1354  0 13:57 ?        00:00:00 qmgr -l -t unix -u
+postgres   1540      1  0 13:57 ?        00:00:02 /usr/local/groundwork/postgresql/bin/postgres.bin -D /usr/local/groundwork/postgresql/data
+postgres   1610   1540  0 13:57 ?        00:00:00 postgres: logger process   
+postgres   1634   1540  0 13:57 ?        00:00:00 postgres: checkpointer process   
+postgres   1635   1540  0 13:57 ?        00:00:00 postgres: writer process   
+postgres   1636   1540  0 13:57 ?        00:00:01 postgres: wal writer process   
+postgres   1637   1540  0 13:57 ?        00:00:01 postgres: autovacuum launcher process   
+postgres   1638   1540  0 13:57 ?        00:00:03 postgres: stats collector process   
+nagios     1709      1  0 13:57 ?        00:00:02 /usr/local/groundwork/nagios/bin/.nagios.bin -d /usr/local/groundwork/nagios/etc/nagios.cfg
+nagios     1711   1709  0 13:57 ?        00:00:00 /usr/local/groundwork/nagios/bin/.nagios.bin --worker /usr/local/groundwork/nagios/var/spool/nagios.qh
+nagios     1712   1709  0 13:57 ?        00:00:00 /usr/local/groundwork/nagios/bin/.nagios.bin --worker /usr/local/groundwork/nagios/var/spool/nagios.qh
+nagios     1713   1709  0 13:57 ?        00:00:00 /usr/local/groundwork/nagios/bin/.nagios.bin --worker /usr/local/groundwork/nagios/var/spool/nagios.qh
+nagios     1714   1709  0 13:57 ?        00:00:00 /usr/local/groundwork/nagios/bin/.nagios.bin --worker /usr/local/groundwork/nagios/var/spool/nagios.qh
+nagios     1715   1709  0 13:57 ?        00:00:00 /usr/local/groundwork/nagios/bin/.nagios.bin --worker /usr/local/groundwork/nagios/var/spool/nagios.qh
+nagios     1716   1709  0 13:57 ?        00:00:00 /usr/local/groundwork/nagios/bin/.nagios.bin --worker /usr/local/groundwork/nagios/var/spool/nagios.qh
+nagios     1717   1709  0 13:57 ?        00:00:00 /usr/local/groundwork/nagios/bin/.nagios.bin -d /usr/local/groundwork/nagios/etc/nagios.cfg
+nagios     1721   1688  0 13:57 ?        00:00:00 /usr/local/groundwork/apache2/bin/httpd.bin -f /usr/local/groundwork/apache2/conf/httpd.conf
+nagios     1722   1688  0 13:57 ?        00:00:00 /usr/local/groundwork/apache2/bin/httpd.bin -f /usr/local/groundwork/apache2/conf/httpd.conf
+nagios     1723   1688  0 13:57 ?        00:00:00 /usr/local/groundwork/apache2/bin/httpd.bin -f /usr/local/groundwork/apache2/conf/httpd.conf
+nagios     1724   1688  0 13:57 ?        00:00:00 /usr/local/groundwork/apache2/bin/httpd.bin -f /usr/local/groundwork/apache2/conf/httpd.conf
+nagios     1725   1688  0 13:57 ?        00:00:00 /usr/local/groundwork/apache2/bin/httpd.bin -f /usr/local/groundwork/apache2/conf/httpd.conf
+nagios     1805      1  1 13:57 ?        00:00:56 /usr/local/groundwork/common/bin/.ntop.bin --user nagios --db-file-path /usr/local/groundwork/common/var/ntop/db --http-server 82 --daemon --use-syslog daemon
+nagios     1825      1  0 13:57 ?        00:00:18 /usr/local/groundwork/influxdb/bin/influxd -pidfile /usr/local/groundwork/influxdb/var/run/influxd.pid -config /usr/local/groundwork/influxdb/etc/influxdb.conf
+nagios     1845      1  0 13:57 ?        00:00:06 /usr/local/groundwork/grafana/bin/grafana-server -homepath /usr/local/groundwork/grafana -pidfile /usr/local/groundwork/grafana/var/run/grafana-server.pid -config /usr/local/groundwork/grafana/conf/defaults.ini cfg:default.paths.data=/usr/local/groundwork/grafana/var cfg:default.paths.logs=/usr/local/groundwork/grafana/data/log cfg:default.paths.plugins=/usr/local/groundwork/grafana/var/plugins
+nagios     1860      1  0 13:57 ?        00:00:00 /usr/local/groundwork/perl/bin/.perl.bin /usr/local/groundwork/common/sbin/snmptt --daemon --ini /usr/local/groundwork/common/etc/snmp/snmptt.ini
+nagios     1861   1860  0 13:57 ?        00:00:00 /usr/local/groundwork/perl/bin/.perl.bin /usr/local/groundwork/common/sbin/snmptt --daemon --ini /usr/local/groundwork/common/etc/snmp/snmptt.ini
+nagios     1958   1949  0 13:57 ?        00:00:00 dumblog main/log
+nagios     1959   1950  0 13:57 ?        00:00:03 /usr/local/groundwork/perl/bin/.perl.bin /usr/local/groundwork/foundation/feeder/cacti_feeder.pl
+nagios     1960   1953  0 13:57 ?        00:00:00 dumblog main/log
+nagios     1962   1945  0 13:57 ?        00:00:00 dumblog main/log
+nagios     1963   1946  0 13:57 ?        00:00:01 /usr/local/groundwork/perl/bin/.perl.bin /usr/local/groundwork/nedi/moni.pl
+nagios     1964   1947  0 13:57 ?        00:00:00 dumblog main/log
+nagios     1965   1956  0 13:57 ?        00:00:00 /bin/sh ./standalone.sh
+nagios     1966   1957  0 13:57 ?        00:00:00 dumblog main/log
+nagios     1967   1948  0 13:57 ?        00:00:01 /usr/local/groundwork/perl/bin/.perl.bin /usr/local/groundwork/nagios/eventhandlers/process_service_perfdata_file -s
+nagios     1968   1951  0 13:57 ?        00:00:00 dumblog main/log
+nagios     1969   1955  0 13:57 ?        00:00:00 dumblog main/log
+nagios     1973   1944  0 13:57 ?        00:00:01 /usr/local/groundwork/perl/bin/.perl.bin -w -- /usr/local/groundwork/foundation/feeder/nedi_feeder.pl
+nagios     1985   1983  0 13:57 ?        00:00:00 /usr/local/groundwork/perl/bin/.perl.bin -w -- /usr/local/groundwork/foundation/feeder/fping_process.pl
+nagios     1991   1987  0 13:57 ?        00:00:00 dumblog main/log
+nagios     1992   1988  0 13:57 ?        00:00:00 /usr/local/groundwork/perl/bin/.perl.bin /usr/local/groundwork/gdma/bin/gdma_spool_processor.pl
+nagios     1993   1989  0 13:57 ?        00:00:00 dumblog main/log
+nagios     2000   1995  0 13:57 ?        00:00:00 dumblog main/log
+nagios     2006      1  0 13:57 ?        00:00:26 /usr/local/groundwork/java/bin/java -Djava.util.logging.config.file=/usr/local/groundwork/foundation/container/josso-1.8.4/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.security.auth.login.config=/usr/local/groundwork/foundation/container/josso-1.8.4/conf/jaas.conf -Djdk.tls.ephemeralDHKeySize=2048 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9012 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Djava.endorsed.dirs=/usr/local/groundwork/foundation/container/josso-1.8.4/endorsed -classpath /usr/local/groundwork/foundation/container/josso-1.8.4/conf:/usr/local/groundwork/foundation/container/josso-1.8.4/bin/bootstrap.jar -Dcatalina.base=/usr/local/groundwork/foundation/container/josso-1.8.4 -Dcatalina.home=/usr/local/groundwork/foundation/container/josso-1.8.4 -Djava.io.tmpdir=/usr/local/groundwork/foundation/container/josso-1.8.4/temp org.apache.catalina.startup.Bootstrap start
+nagios     2056   1965 11 13:57 ?        00:06:39 /usr/local/groundwork/java/bin/java -D[Standalone] -server -XX:+UseCompressedOops -Xms1024m -Xmx2048m -XX:MaxPermSize=512m -Djava.net.preferIPv4Stack=true -Dorg.jboss.resolver.warning=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.server.default.config=standalone.xml -Dorg.jboss.as.logging.per-deployment=false -Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true -Dorg.apache.catalina.connector.CoyoteAdapter.ALLOW_BACKSLASH=true -Dorg.jboss.boot.log.file=/usr/local/groundwork/foundation/container/jpp/standalone/log/boot.log -Dlogging.configuration=file:/usr/local/groundwork/foundation/container/jpp/standalone/configuration/logging.properties -jar /usr/local/groundwork/foundation/container/jpp/jboss-modules.jar -mp /usr/local/groundwork/foundation/container/jpp/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=/usr/local/groundwork/foundation/container/jpp -Djboss.server.base.dir=/usr/local/groundwork/foundation/container/jpp/standalone
+postgres   3225   1540  0 13:59 ?        00:00:01 postgres: jboss jboss-idm 127.0.0.1(44200) idle
+postgres   3944   1540  0 13:59 ?        00:00:00 postgres: jboss jboss-jcr 127.0.0.1(44212) idle
+postgres   4105   1540  0 13:59 ?        00:00:04 postgres: collage gwcollagedb 127.0.0.1(44226) idle
+postgres   4106   1540  0 13:59 ?        00:00:03 postgres: collage gwcollagedb 127.0.0.1(44228) idle
+postgres   4107   1540  0 13:59 ?        00:00:05 postgres: collage gwcollagedb 127.0.0.1(44230) idle
+postgres   4108   1540  0 13:59 ?        00:00:05 postgres: collage gwcollagedb 127.0.0.1(44232) idle
+postgres   4109   1540  0 13:59 ?        00:00:02 postgres: collage gwcollagedb 127.0.0.1(44234) idle
+nagios     4273   1954  0 13:59 ?        00:00:14 /usr/local/groundwork/perl/bin/.perl.bin -w -- /usr/local/groundwork/foundation/feeder/nagios2collage_socket.pl
+nagios     4391   1990  0 13:59 ?        00:00:01 /usr/local/groundwork/perl/bin/.perl.bin -w -- /usr/local/groundwork/foundation/feeder/nagios2collage_eventlog.pl
+postgres   6065   1540  0 14:01 ?        00:00:03 postgres: collage gwcollagedb 127.0.0.1(44428) idle
+postgres   6066   1540  0 14:01 ?        00:00:03 postgres: collage gwcollagedb 127.0.0.1(44430) idle
+postgres   6067   1540  0 14:01 ?        00:00:03 postgres: collage gwcollagedb 127.0.0.1(44432) idle
+postgres   6068   1540  0 14:01 ?        00:00:02 postgres: collage gwcollagedb 127.0.0.1(44434) idle
+nagios     6248   1952  0 14:01 ?        00:00:08 /usr/local/groundwork/perl/bin/.perl.bin -w /usr/local/groundwork/noma/notifier/noma_daemon.pl --nodaemonize
+nagios     6586      1  0 14:02 ?        00:00:01 /usr/local/groundwork/perl/bin/.perl.bin -w -- /usr/local/groundwork/nagios/eventhandlers/process_service_perfdata_file
+postgres  36847   1540  0 14:47 ?        00:00:00 postgres: collage gwcollagedb 127.0.0.1(48108) idle
+postgres  36848   1540  0 14:47 ?        00:00:00 postgres: collage gwcollagedb 127.0.0.1(48110) idle
+ntp       43526      1  0 14:55 ?        00:00:00 /usr/sbin/ntpd -u ntp:ntp -g
+# sysctl settings are defined through files in
+# /usr/lib/sysctl.d/, /run/sysctl.d/, and /etc/sysctl.d/.
+#
+# Vendors settings live in /usr/lib/sysctl.d/.
+# To override a whole file, create a new file with the same in
+# /etc/sysctl.d/ and put new settings there. To override
+# only specific settings, add a file with a lexically later
+# name in /etc/sysctl.d/ and put new settings there.
+#
+# For more information, see sysctl.conf(5) and sysctl.d(5).
+Filename				Type		Size	Used	Priority
+/dev/dm-1                               partition	2097148	57608	-1
+Filename				Type		Size	Used	Priority
+/dev/dm-1                              	partition	2097148	57608	-1
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         192.168.1.1     0.0.0.0         UG        0 0          0 eth0
+192.168.1.0     0.0.0.0         255.255.255.0   U         0 0          0 eth0
+/etc/sysconfig/network-scripts/ifcfg-ens33:IPADDR=192.168.1.98
+/etc/sysconfig/network-scripts/ifcfg-eth0:IPADDR=192.168.1.98
+/etc/sysconfig/network-scripts/ifcfg-lo:IPADDR=127.0.0.1
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:35485           0.0.0.0:*               LISTEN      2006/java           
+tcp        0      0 127.0.0.1:4447          0.0.0.0:*               LISTEN      2056/java           
+tcp        0      0 0.0.0.0:5667            0.0.0.0:*               LISTEN      1709/.nagios.bin    
+tcp        0      0 127.0.0.1:5445          0.0.0.0:*               LISTEN      2056/java           
+tcp        0      0 127.0.0.1:8805          0.0.0.0:*               LISTEN      2006/java           
+tcp        0      0 127.0.0.1:5670          0.0.0.0:*               LISTEN      6248/.perl.bin      
+tcp        0      0 127.0.0.1:9990          0.0.0.0:*               LISTEN      2056/java           
+tcp        0      0 127.0.0.1:8809          0.0.0.0:*               LISTEN      2006/java           
+tcp        0      0 0.0.0.0:5001            0.0.0.0:*               LISTEN      2006/java           
+tcp        0      0 0.0.0.0:5677            0.0.0.0:*               LISTEN      1709/.nagios.bin    
+tcp        0      0 127.0.0.1:9999          0.0.0.0:*               LISTEN      2056/java           
+tcp        0      0 127.0.0.1:5455          0.0.0.0:*               LISTEN      2056/java           
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      859/rpcbind         
+tcp        0      0 127.0.0.1:8080          0.0.0.0:*               LISTEN      2056/java           
+tcp        0      0 0.0.0.0:41040           0.0.0.0:*               LISTEN      2006/java           
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1688/httpd.bin      
+tcp        0      0 0.0.0.0:4913            0.0.0.0:*               LISTEN      2056/java           
+tcp        0      0 0.0.0.0:82              0.0.0.0:*               LISTEN      1805/.ntop.bin      
+tcp        0      0 0.0.0.0:9012            0.0.0.0:*               LISTEN      2006/java           
+tcp        0      0 0.0.0.0:8086            0.0.0.0:*               LISTEN      1825/influxd        
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1143/sshd           
+tcp        0      0 127.0.0.1:8888          0.0.0.0:*               LISTEN      2006/java           
+tcp        0      0 127.0.0.1:3000          0.0.0.0:*               LISTEN      1845/grafana-server 
+tcp        0      0 127.0.0.1:8088          0.0.0.0:*               LISTEN      1825/influxd        
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      1540/postgres.bin   
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      1354/master         
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         192.168.1.1     0.0.0.0         UG        0 0          0 eth0
+192.168.1.0     0.0.0.0         255.255.255.0   U         0 0          0 eth0
